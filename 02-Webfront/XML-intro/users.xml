@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Users>
+    <User id="1">
+        <username></username>
+        <lastname>DEV</lastname>
+        <firstname>Mike</firstname>
+        <birthday format="yyyy-mm-dd">1981-11-12</birthday>
+    </User>
+    <User id="2">
+        <username>toto</username>
+        <lastname>Golay</lastname>
+        <firstname>Jerry</firstname>
+        <birthday format="yyyy-mm-dd">2002-11-02</birthday>
+    </User>
+    <User id="3">
+        <username>kéké</username>
+        <lastname>ToKetchup</lastname>
+        <firstname>Thomas</firstname>
+        <birthday format="yyyy-mm-dd">2000-01-20</birthday>
+    </User>
+     <User id="4">
+        <username>iTzWeeeDZz</username>
+        <lastname>LEMMEL</lastname>
+        <firstname>Lucas</firstname>
+        <birthday format="yyyy-mm-dd">1996-10-30</birthday>
+    </User>
+     <User id="5">
+        <username>Mobydick</username>
+        <lastname>Mathias</lastname>
+        <firstname>Marie-Christine</firstname>
+        <birthday format="yyyy-mm-dd">1971</birthday>
+    </User>
+</Users>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Series>
+    <Netflix>
+        <Serie id="1">Outer Banks</Serie>
+        <Serie id="2">L'amour Trompé</Serie>
+        <Serie id="3">Monstres</Serie>
+        <Serie id="4">Nobody Wants This</Serie>
+        <Serie id="5">El Secreto Del Rio</Serie>
+    </Netflix>
+</Series>
