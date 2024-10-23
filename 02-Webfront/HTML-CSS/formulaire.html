@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulaire</title>
+    </head>
+    <body>
+        <h1>Formulaire d'inscription</h1>
+        <h2>Votre compte configuré en 2 minutes !</h2>
+        <form action="" method="get">
+            <fieldset>
+                <legend>&Eacute;tat civil</legend>
+                <div>
+                    <label for="Nom">Nom :</label>
+                    <input type="text" id="Nom" name="userNom"/>
+                </div> 
+                <div>
+                    <label for="Prenom">Prénom :</label>
+                    <input type="text" id="Prenom" name="userPrenom"/>
+                </div>
+                <div>
+                    <label for="DateDeNaissance">Date de naissance :</label>
+                    <input type="date" id="DateDeNaissance" name="userDateDeNaissance"/>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Information de contact</legend>
+                <div>
+                    <label for="AdresseEmail">Adresse Email :</label>
+                    <input type="text" id="AdresseEmail" name="userAdresseEmail"/>
+                </div>
+                <div>
+                    <label for="Telephone">Téléphone :</label>
+                    <input type="tel" id="Telephone" name="user_Telephone"/>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div>
+                    <input type="checkbox" id="scales"/>
+                    <label for="scales">J'accepte les <a href="https://github.com/LucasLemmel">condition d'utilisation</a></label>
+                </div>
+                <div>
+                    <input class="styled" type="submit" value="S'inscrire" />
+
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

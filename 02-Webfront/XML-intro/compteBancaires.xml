@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<BankAccounts>
+
+    <BankAccount id="1">
+
+        <Account>FR76 10001 10001 10000000001 11</Account>
+        <Bank>Banque Populaire</Bank>
+        <City>Paris</City>
+        <Owner>John Doe</Owner>
+        <Balance>36813.47</Balance>
+    
+    </BankAccount>
+
+    <BankAccount id="2">
+
+        <Account>FR76 30003 30001 30000000012 33</Account>
+        <Bank>Crédit Mutuel</Bank>
+        <City>Paris</City>
+        <Owner>Mark Zouk</Owner>
+        <Balance>5295.59</Balance>
+
+    </BankAccount>
+
+    <BankAccount id="3">
+        
+        <Account>FR76 30003 30005 30000000001 13</Account>
+        <Bank>Crédit Mutuel</Bank>
+        <City>Mulhouse</City>
+        <Owner>Joseph Picard</Owner>
+        <Balance>1663.14</Balance>
+
+    </BankAccount>
+
+    <BankAccount id="4">
+        
+        <Account>FR76 30003 30005 30000000002 23</Account>
+        <Bank>Crédit Mutuel</Bank>
+        <City>Mulhouse</City>
+        <Owner>Bruce Milice</Owner>
+        <Balance>1559.3</Balance>
+    
+    </BankAccount>
+
+    <BankAccount id="5">
+
+        <Account>FR76 30003 30005 30000000003 33</Account>
+        <Bank>Crédit Mutuel</Bank>
+        <City>Mulhouse</City>
+        <Owner>Steeve Bobs</Owner>
+        <Balance>0.66</Balance>
+    
+    </BankAccount>
+
+    <BankAccount id="6">
+
+        <Account>FR76 30003 30005 30000000004 43</Account>
+        <Bank>Crédit Mutuel</Bank>
+        <City>Mulhouse</City>
+        <Owner>Bill Bête</Owner>
+        <Balance>1500.44</Balance>
+    
+    </BankAccount>
+
+</BankAccounts>

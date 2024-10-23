@@ -1,0 +1,32 @@
+body{
+
+padding: 0;
+margin: 0 auto;
+
+font-family: Verdana;
+
+background: #7D8CC4;
+width: 1000px;
+}
+h1 {
+    color: #726DA8;
+    text-align: center;
+}
+h2 {
+    color: #726DA8;
+}
+main {
+    background: white;
+    width: 1000px;
+    border: 10px solid white;
+}
+footer {
+    text-align: center;
+    color: #A0D2DB;
+    padding: 20px;
+    font-size: 1.3em;
+}
+p,
+ol {
+    color: #B8336A;
+}

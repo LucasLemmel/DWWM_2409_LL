@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Passagers>
+    <Passager id="1">
+        <nom>Lemmel</nom>
+        <Prenom>Lucas</Prenom>
+        <age>27</age>
+    </Passager>
+    <Passager id="2">
+        <nom>Stoll</nom>
+        <Prenom>Clément</Prenom>
+        <age>27</age>
+    </Passager>
+    <Passager id="3">
+        <nom>Pina</nom>
+        <Prenom>Laurine</Prenom>
+        <age>28</age>
+    </Passager>
+</Passagers>

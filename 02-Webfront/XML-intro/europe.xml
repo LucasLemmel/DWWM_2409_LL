@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Europe>
+    <Pays id="1">
+        <nom>France</nom>
+        <Capitale>Paris</Capitale>
+        <superficiePays unite=km²>551 695</superficiePays>
+        <nbHabitants>68 373 433</nbHabitants>
+    </Pays>
+    <Pays id="2">
+        <nom>Espagne</nom>
+        <Capitale>Madrid</Capitale>
+        <superficiePays unite=km²>506 030</superficiePays>
+        <nbHabitants>48 592 909</nbHabitants>
+    </Pays>
+    <Pays id="3">
+        <nom>Roumanie</nom>
+        <Capitale>Bucarest</Capitale>
+        <superficiePays unite=km²>238 391</superficiePays>
+        <nbHabitants>18 549 408</nbHabitants>
+    </Pays>
+    <Pays id="4">
+        <nom>Chypre</nom>
+        <Capitale>Nicosie</Capitale>
+        <superficiePays unite=km²>9 250</superficiePays>
+        <nbHabitants>1 269 748</nbHabitants>
+    </Pays>
+    <Pays id="5">
+        <nom>Croatie</nom>
+        <Capitale>Zagreb</Capitale>
+        <superficiePays unite=km²>56 590</superficiePays>
+        <nbHabitants>3 996 978</nbHabitants>
+    </Pays>
+    <Pays id="6">
+        <nom>Belgique</nom>
+        <Capitale>Bruxelles</Capitale>
+        <superficiePays unite=km²>30 688</superficiePays>
+        <nbHabitants>11 954 280</nbHabitants>
+    </Pays>
+    <Pays id="7">
+        <nom>Allemagne</nom>
+        <Capitale>Berlin</Capitale>
+        <superficiePays unite=km²>357 580</superficiePays>
+        <nbHabitants>83 915 058</nbHabitants>
+    </Pays>
+    <Pays id="8">
+        <nom>Autriche</nom>
+        <Capitale>Vienne</Capitale>
+        <superficiePays unite=km²>83 871</superficiePays>
+        <nbHabitants>9 158 750</nbHabitants>
+    </Pays>
+    <Pays id="9">
+        <nom>Bulgarie</nom>
+        <Capitale>Sofia</Capitale>
+        <superficiePays unite=km²>110 550</superficiePays>
+        <nbHabitants>6 745 414</nbHabitants>
+    </Pays>
+    <Pays id="10">
+        <nom>Danemark</nom>
+        <Capitale>Copenhague</Capitale>
+        <superficiePays unite=km²>43 070</superficiePays>
+        <nbHabitants>5 939 695</nbHabitants>
+    </Pays>
+    <Pays id="11">
+        <nom>Estonie</nom>
+        <Capitale>Tallinn</Capitale>
+        <superficiePays unite=km²>45 227</superficiePays>
+        <nbHabitants>1 306 652</nbHabitants>
+    </Pays>
+    <Pays id="12">
+        <nom>Finlande</nom>
+        <Capitale>Helsinki</Capitale>
+        <superficiePays unite=km²>338 145</superficiePays>
+        <nbHabitants>5 670 034</nbHabitants>
+    </Pays>
+    <Pays id="13">
+        <nom>Grèce</nom>
+        <Capitale>Athènes</Capitale>
+        <superficiePays unite=km²>131 957</superficiePays>
+        <nbHabitants>10 302 720</nbHabitants>
+    </Pays>
+    <Pays id="14">
+        <nom>Hongrie</nom>
+        <Capitale>Budapest</Capitale>
+        <superficiePays unite=km²>93 030</superficiePays>
+        <nbHabitants>9 668 045</nbHabitants>
+    </Pays>
+    <Pays id="15">
+        <nom>Irlande</nom>
+        <Capitale>Dublin</Capitale>
+        <superficiePays unite=km²>70 280</superficiePays>
+        <nbHabitants>4 985 887</nbHabitants>
+    </Pays>
+    <Pays id="16">
+        <nom>Italie</nom>
+        <Capitale>Rome</Capitale>
+        <superficiePays unite=km²>301 323</superficiePays>
+        <nbHabitants>59 342 867</nbHabitants>
+    </Pays>
+    <Pays id="17">
+        <nom>Lettonie</nom>
+        <Capitale>Riga</Capitale>
+        <superficiePays unite=km²>64 589</superficiePays>
+        <nbHabitants>1 786 955</nbHabitants>
+    </Pays>
+    <Pays id="18">
+        <nom>Lituanie</nom>
+        <Capitale>Vilnius</Capitale>
+        <superficiePays unite=km²>65 286</superficiePays>
+        <nbHabitants>2 524 771</nbHabitants>
+    </Pays>
+    <Pays id="19">
+        <nom>Luxembourg</nom>
+        <Capitale>Luxembourg</Capitale>
+        <superficiePays unite=km²>2 586</superficiePays>
+        <nbHabitants>673 036</nbHabitants>
+    </Pays>
+    <Pays id="20">
+        <nom>Malte</nom>
+        <Capitale>La Valette</Capitale>
+        <superficiePays unite=km²>316</superficiePays>
+        <nbHabitants>448 040</nbHabitants>
+    </Pays>
+    <Pays id="21">
+        <nom>Pays-Bas</nom>
+        <Capitale>Amsterdam</Capitale>
+        <superficiePays unite=km²>41 528</superficiePays>
+        <nbHabitants>17 958 578</nbHabitants>
+    </Pays>
+    <Pays id="22">
+        <nom>Pologne</nom>
+        <Capitale>Varsovie</Capitale>
+        <superficiePays unite=km²>312 679</superficiePays>
+        <nbHabitants>37 903 063</nbHabitants>
+    </Pays>
+    <Pays id="23">
+        <nom>Portugal</nom>
+        <Capitale>Lisbonne</Capitale>
+        <superficiePays unite=km²>92 345</superficiePays>
+        <nbHabitants> 10 422 542</nbHabitants>
+    </Pays>
+    <Pays id="24">
+        <nom>Slovaquie</nom>
+        <Capitale>Bratislava</Capitale>
+        <superficiePays unite=km²>49 034</superficiePays>
+        <nbHabitants>5 477 739</nbHabitants>
+    </Pays>
+    <Pays id="25">
+        <nom>Slovénie</nom>
+        <Capitale>Ljubljana</Capitale>
+        <superficiePays unite=km²>20 675</superficiePays>
+        <nbHabitants>2 094 013</nbHabitants>
+    </Pays>
+    <Pays id="26">
+        <nom>Suède</nom>
+        <Capitale>Stockholm</Capitale>
+        <superficiePays unite=km²>450 000</superficiePays>
+        <nbHabitants>10 492 298</nbHabitants>
+    </Pays>
+    <Pays id="27">
+        <nom>Tchéquie</nom>
+        <Capitale>Prague</Capitale>
+        <superficiePays unite=km²>78 870</superficiePays>
+        <nbHabitants>10 900 555</nbHabitants>
+    </Pays>
+</Europe>
