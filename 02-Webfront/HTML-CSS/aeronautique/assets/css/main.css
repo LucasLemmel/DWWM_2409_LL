@@ -18,7 +18,7 @@ footer {
 p {
     text-align: justify;
 }
-img {
+header img {
     width: 100px;
 }
 header{
@@ -45,4 +45,7 @@ nav a {
 }
 nav a:hover {
     background-color: #356b35;
+}
+div img {
+    width: 230px * 150px;
 }
