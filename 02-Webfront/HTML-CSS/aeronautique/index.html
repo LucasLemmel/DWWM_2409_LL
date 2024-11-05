@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+    <link href="assets/css/main.css"rel="stylesheet" />
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,12 @@
     </head>
     <body>
         <header>
+            <img src="assets/planes/planes_logo.svg" alt="planes_logo"/>
             <h1>Avions de ligne</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="Actualités">Actualités</a>
+                        <a href="#Actualités">Actualités</a>
                     </li>
                     <li>
                         <a href="Avions(liste)">Avions(liste)</a>
@@ -29,7 +31,7 @@
             </nav>
         </header>
         <main>
-            <h2>Actualités</h2>
+            <h2 id="#Actualités">Actualités</h2>
             <div>
                 <h2>Vueling élimine 100% des matières plastiques du service de restauration à bord</h2>
                 <p>La compagnie aérienne a retiré plus de 5 millions de tasse, 1 million de touillettes à café et 
@@ -49,6 +51,120 @@
                     notamment de laboratoire de recherche en orbite.</p>
             </div>
         </main>
+        <table>
+            <h2>Liste d'avions</h2>
+            <tr>
+                <th>id</th>
+                <th>construction</th>
+                <th>modele</th>
+                <th>passagers</th>
+                <th>fret</th>
+                <th>autonomie</th>
+                <th>vitesse_croisière</th>
+                <th>vitesse_max</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>AIRBUS</td>
+                <td>A300</td>
+                <td>290</td>
+                <td>0</td>
+                <td>7500</td>
+                <td>900</td>
+                <td>990</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>AIRBUS</td>
+                <td>A320</td>
+                <td>180</td>
+                <td>0</td>
+                <td>5000</td>
+                <td>900</td>
+                <td>990</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>AIRBUS</td>
+                <td>A350</td>
+                <td>440</td>
+                <td>0</td>
+                <td>11800</td>
+                <td>920</td>
+                <td>1010</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>AIRBUS</td>
+                <td>A380</td>
+                <td>0</td>
+                <td>300</td>
+                <td>15200</td>
+                <td>903</td>
+                <td>1020</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>BOEING</td>
+                <td>717</td>
+                <td>125</td>
+                <td>0</td>
+                <td>9000</td>
+                <td>890</td>
+                <td>975</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>BOEING</td>
+                <td>737</td>
+                <td>0</td>
+                <td>200</td>
+                <td>14800</td>
+                <td>920</td>
+                <td>1020</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>BOEING</td>
+                <td>747</td>
+                <td>350</td>
+                <td>0</td>
+                <td>10500</td>
+                <td>900</td>
+                <td>1010</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>BOEING</td>
+                <td>777</td>
+                <td>0</td>
+                <td>270</td>
+                <td>16500</td>
+                <td>980</td>
+                <td>1020</td>
+            </tr>
+        </table>
+        <div>
+            <h2>Gallerie d'images</h2>
+            <img src="assets/img/airbus-a300.jpg" alt="airbus-a300"/>
+            <p>Airbus A300</p>
+            <img src="assets/img/airbus-a320.jpg" alt="airbus-a320"/>
+            <p>Airbus A320</p>
+            <img src="assets/img/airbus-a350.jpg" alt="airbus-a350"/>
+            <p>Airbus A350</p>
+            <img src="assets/img/airbus-a380.jpg" alt="airbus-a380"/>
+            <p>Airbus A380</p>
+        </div>
+        <div>    
+            <img src="assets/img/boeing-717.jpg" alt="boeing-717"/>
+            <p>boeing-717</p>
+            <img src="assets/img/boeing-737.jpg" alt="boeing-737"/>
+            <p>boeing-737</p>
+            <img src="assets/img/boeing-747.jpg" alt="boeing-747"/>
+            <p>boeing-747</p>
+            <img src="assets/img/boeing-777.jpg" alt="boeing-777"/>
+            <p>boeing-777</p>
+        </div>
         <footer>
             Copyright 2020 <a href="https://crm68.fr">ARFP</a>
         </footer>
