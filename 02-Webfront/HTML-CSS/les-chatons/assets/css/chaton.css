@@ -12,18 +12,33 @@ header{
 }
 main{
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    
 }
 figure{
     background-color: #ffffff;
     width: 20%;
     margin-top: 50px;
+
 }
 img{
-    width: 382px;
-    height: 210px;
+    width: 100%;
+    /* width: 382px;
+    height: 210px; */
 }
 h2{
     color: #E64B3C;
+}
+figcaption{
+    padding: 0 1rem;
+}
+
+@media(max-width: 800px) {
+    main{
+        flex-direction: column;
+        margin: 0 1rem;
+    }
+    figure {
+        width: 88%;
+    }
 }

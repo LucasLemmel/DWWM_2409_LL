@@ -1,0 +1,13 @@
+body{
+    height: 100vh;
+}
+.principal{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    text-align: center;
+    height: 100vh;
+}
+section{
+    background-color: #CCCC33;
+}
