@@ -1,0 +1,77 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+
+    background-color: red;
+
+    img{
+
+        height: 5em;
+
+    }
+
+    #menu{
+
+        display: flex;
+        padding: 1em;
+        justify-content: center;
+     
+    }
+
+    ul{
+
+        padding: 1.4em;
+        display: flex;
+        list-style: none;
+        gap: 1em;
+    
+    }
+
+    a{
+
+        display: block;
+        height: 100%;
+        align-content: center;
+
+    }
+
+}
+
+
+#banner{
+
+    min-height: 50em;
+    background-image: url(https://th.bing.com/th/id/R.4b0d777fc392d2352f3630933776499e?rik=S0zIgGWHojFmtQ&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #bannerTitle{
+
+        height: fit-content;
+        text-align: center;
+
+        img{
+
+            height: 10em;
+
+        }
+
+        h1{
+
+            font-size: 2em;
+
+        }
+
+    }
+
+}
+
+
