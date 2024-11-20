@@ -1,8 +1,6 @@
 *{
-
     margin: 0;
     padding: 0;
-
 }
 
 body{
@@ -13,34 +11,34 @@ body{
 header{
 
     display: flex;
-    align-items: center;
+
     justify-content: center;
-    height: 5em;
+    
+    
     text-transform: uppercase;
     #wrapper{
 
         display: flex;
         justify-content: center;
-        font-size: 2em;
-        h1{
-            
-            align-self: center;
-        }
+        font-size: 2.5em;
+        
     
         nav{
-            
             display: flex;
-            gap: 20px;
+            gap: 2em;
             ul{
                 
                 display: flex;
-                align-self: center;
-                gap: 1.3em;
+                align-items: center;
+                gap: 1em;
+                
+                
                 li{
-                    align-items: center;
+                    
                     list-style: none;
+                    
                     a{
-                        
+                        display: flex;
                         text-decoration: none;
                         color: black;
                         img{
@@ -48,6 +46,8 @@ header{
                         }
                     }
                 }
+                
+                
             }
             
         }
@@ -57,29 +57,84 @@ header{
         a{
 
             color:rgb(50, 187, 241)!important;
-    
+            
         }
     }
+    
 }
 
 main{
     display: flex;
-    justify-content: center;
-    font-size: 1.2em;
+    align-items: center;
+    
     section{
 
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        img{
+            justify-self: center;
+            width: 70%;
+        }
         #container{
             display: flex;
             flex-direction: column;
-            gap: 10px;
-            img{
-                
-            }
-
+            
+           gap: 20px;
+            
             h2{
-
+                font-size: 2.5em;
             }
+            #tag{
+                background-color: rgb(175, 243, 175);
+                color: rgb(28, 126, 28);
+                width: 8.5%;
+            }
+            #price{
+                font-size: 2em;
+               
+            }
+            #choix{
+                font-size: 1.5em;
+                
+                display: flex;
+                gap: 2em;
+                .choix2{
+                    display: flex;
+                    flex-direction: column
+                    
+                    
+                }
+            }
+            #bouton{
+
+                background-color: black;
+                color: white;
+                border-radius: 10px;
+                font-size: 1em;
+                width: 70%;
+                height: 2em;
+            }
+            #bouton:hover{
+                background-color: rgb(75, 74, 74);
+            }
+            #paragraphe{
+
+                background-color: rgb(236, 234, 234);
+                border: 1px solid gray;
+                border-radius: 10px; 
+                width: 70%;
+                text-align: justify;
+                display: grid;
+                grid-template-columns: 90% 10%;
+                img{
+                    width: 20px;
+                }
+            }
+
+            
+            
+
         }
     }
 }
