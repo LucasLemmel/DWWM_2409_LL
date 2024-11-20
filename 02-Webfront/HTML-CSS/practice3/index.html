@@ -20,9 +20,9 @@
                     <li><a href="">Vêtement</a></li>
                     <li><a href="">Chaussures</a></li>
                     <li><a href="">Accessoires</a></li>
-                    <li><a href=""><img src="./images/flocon-de-neige 1.png" alt="">Promo Hiver</a></li>
-                    <li><a href=""><img src="./images/Icon.png" alt=""></a></li>
-                    <li><a href=""><img src="./images/icon2.png" alt=""></a></li>
+                    <li id="promo"><a href=""><img src="./images/flocon-de-neige 1.png" alt="">Promo Hiver</a></li>
+                    <li class="icon"><a href=""><img src="./images/Icon.png" alt=""></a></li>
+                    <li class="icon"><a href=""><img src="./images/icon2.png" alt=""></a></li>
                 </ul>
 
             </nav>
@@ -38,32 +38,49 @@
             <div id="container">
                 
                 <h2>Nike sneakers</h2>
+                <div id="tag"><tag>Chaussures</tag></div>
                 <div id="price"><sup>€</sup>127</div>
-                <label for="size">Taille</label>
-                <select name="taille" id="size">
-                    <option value="42">42</option>
-                    <option value="43">43</option>
-                    <option value="44">44</option>
-                    <option value="45">45</option>
-                    <option value="46">46</option>
-                    <option value="47">47</option>
-                    <option value="48">48</option>
-                </select>
-    
-                <label for="color">Couleur</label>
-                <select name="couleur" id="color">
-                    <option value="bleu">bleu</option>
-                    <option value="rouge">rouge</option>
-                    <option value="vert">vert</option>
-                    <option value="orange">orange</option>
-                </select>
-                
+                <div id="choix">
+                    <div class="choix2">
+                        <label for="size">Taille</label>
+                        <select name="taille" id="size">
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                            <option value="46">46</option>
+                            <option value="47">47</option>
+                            <option value="48">48</option>
+                        </select>
+                    </div>
+                    <div class="choix2">
+
+                        <label for="color">Couleur</label>
+                        <select name="couleur" id="color">
+                            <option value="bleu">bleu</option>
+                            <option value="rouge">rouge</option>
+                            <option value="vert">vert</option>
+                            <option value="orange">orange</option>
+                        </select>
+
+                    </div>
+
+                </div>
+                <button id="bouton">ajouter au panier</button>
+                <div id="paragraphe">
+                    <h3>Caractéristique</h3>
+                    <img src="./images/Chevron up.png" alt="Chevron">
+                    <p>Découvrez cette sneaker alliant confor et style, 
+                        idéale pour les amateurs de mode urbaine. Conçue 
+                        avec une empeigne en cuir de haute qualité et des 
+                        empiècements en maille respirante ...</p>
+                </div>
             </div>
 
         </section>
 
 
     </main>
-    <footer></footer>
+    
 </body>
 </html>
