@@ -9,23 +9,17 @@ body{
 }
 
 header{
-
-    display: flex;
-
-    justify-content: center;
-    
-    
+    justify-items: center;
     text-transform: uppercase;
     #wrapper{
-
-        display: flex;
-        justify-content: center;
-        font-size: 2.5em;
+        
+        font-size: 2em;
         
     
         nav{
             display: flex;
-            gap: 2em;
+            
+            gap: 5em;
             ul{
                 
                 display: flex;
@@ -48,9 +42,31 @@ header{
                 }
                 
                 
+                
+            }
+            #icon{
+                list-style: none;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                img{
+                    height: 1.3em;
+                }
+                    
             }
             
+            
         }
+        #menud{
+            display: none;
+            position: absolute;
+            top: 0px;
+            right: 50px;
+            img{
+                width: 50px;
+            }
+        }
+
     }
 
     li:nth-child(4){
@@ -61,10 +77,16 @@ header{
         }
     }
     
+    
 }
 
 main{
-    display: flex;
+    #fav{
+        
+        padding-top: 100px;
+        padding-left: 150px;
+
+    }
     align-items: center;
     
     section{
@@ -74,7 +96,7 @@ main{
         align-items: center;
         img{
             justify-self: center;
-            width: 70%;
+            
         }
         #container{
             display: flex;
@@ -85,10 +107,10 @@ main{
             h2{
                 font-size: 2.5em;
             }
-            #tag{
+            tag{
                 background-color: rgb(175, 243, 175);
                 color: rgb(28, 126, 28);
-                width: 8.5%;
+                width: 9.5%;
             }
             #price{
                 font-size: 2em;
@@ -112,8 +134,8 @@ main{
                 color: white;
                 border-radius: 10px;
                 font-size: 1em;
-                width: 70%;
-                height: 2em;
+                width: 52%;
+                height: 3em;
             }
             #bouton:hover{
                 background-color: rgb(75, 74, 74);
@@ -123,10 +145,12 @@ main{
                 background-color: rgb(236, 234, 234);
                 border: 1px solid gray;
                 border-radius: 10px; 
-                width: 70%;
+                width: 50%;
                 text-align: justify;
                 display: grid;
-                grid-template-columns: 90% 10%;
+                grid-template-columns: 95% 5%;
+                padding: 10px;
+                gap: 5px;
                 img{
                     width: 20px;
                 }
@@ -137,4 +161,11 @@ main{
 
         }
     }
+}
+
+
+@media screen and (max-width:800px){
+   #menu{
+    display: none;
+   }
 }
