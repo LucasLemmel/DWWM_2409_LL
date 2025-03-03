@@ -1,0 +1,33 @@
+{
+    "users":
+    [
+        {
+            "userId": 1,
+            "username": "...",
+            "firstname": "Lucas",
+            "lastname": "Lemmel",
+            "birthday": "1996-10-30"
+        },
+        {
+            "userId": 2,
+            "username": "La mouche",
+            "firstname": "Mohamed",
+            "lastname": "Amra",
+            "birthday": "1994-03-10"
+        },
+        {
+            "userId": 3,
+            "username": "L'Écrivain",
+            "firstname": "Rédoine",
+            "lastname": "Faïd",
+            "birthday": "1972-05-10"
+        },
+        {
+            "userId": 4,
+            "username": "Roi de la belle",
+            "firstname": "Antonio",
+            "lastname": "Ferrara",
+            "birthday": "1973-10-12"
+        }
+    ] 
+}
