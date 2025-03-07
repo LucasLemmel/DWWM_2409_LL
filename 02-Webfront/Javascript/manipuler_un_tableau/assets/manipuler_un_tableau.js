@@ -27,82 +27,80 @@ function genererMail(prenom, nom) {
 }
 
 function generateTab() {
-                const wrapper = document.querySelector("header");
+  const wrapper = document.querySelector("header");
 
-                const monTab = document.createElement("table");
-                wrapper.appendChild(monTab);
-                monTab.setAttribute("cellspacing", "0");
+  const monTab = document.createElement("table");
+  wrapper.appendChild(monTab);
+  monTab.setAttribute("cellspacing", "0");
 
-                monTab.setAttribute("style", "color: #ACCBE1");
+  monTab.setAttribute("style", "color: #ACCBE1");
 
-                const myHead = monTab.createTHead();
+  const myHead = monTab.createTHead();
 
-                const rowTitle = myHead.insertRow();
+  const rowTitle = myHead.insertRow();
 
-                let tabTitre = ["Nom", "Prénom", "Email", "Supprimer"];
+  let tabTitre = ["Nom", "Prénom", "Email", "Supprimer"];
 
-                for (let i = 0; i < tabTitre.length; i++) {
-                    addCellTitle(tabTitre[i], rowTitle);
-                }
+  for (let i = 0; i < tabTitre.length; i++) {
+    addCellTitle(tabTitre[i], rowTitle);
+  }
 
-                const myTBody = monTab.createTBody();
+  const myTBody = monTab.createTBody();
 
-                people.forEach((Element, index) => {
-                    let prenom = Element.split(" ")[0];
-                    let prenomMail = prenom.replace("é", "e");
-                    let nom = Element.split(" ")[1];
-                    let supprimer = `<a href="#" id="${index}"  > X </a>`;
-                    const myRow = myTBody.insertRow();
+  people.forEach((Element, index) => {
+    let prenom = Element.split(" ")[0];
+    let prenomMail = prenom.replace("é", "e");
+    let nom = Element.split(" ")[1];
+    let supprimer = `X `;
+    const myRow = myTBody.insertRow();
 
-                    addCell(nom, myRow);
+    addCell(nom, myRow);
 
-                    addCell(prenom, myRow);
+    addCell(prenom, myRow);
 
-                    addCell(genererMail(prenomMail, nom), myRow);
+    addCell(genererMail(prenomMail, nom), myRow);
 
-                    let cellsuppr = addCell(supprimer, myRow);
-                    cellsuppr.setAttribute("style","text-align:center;style;border: 1px solid #ACCBE1;padding: 10px;background-color: #637081");});
+    let cellsuppr = addCell(supprimer, myRow);
+    cellsuppr.setAttribute(
+      "style",
+      "text-align:center;style;border: 1px solid #ACCBE1;padding: 10px;background-color: #637081"
+    );
+    cellsuppr.addEventListener("click",function(){
+      myRow.remove();
+      people.splice(index, 1);
+    })
+
+  });
 }
-
-
 
 generateTab();
 
-
-const tabSuppr = document.querySelectorAll("a");
-tabSuppr.forEach((a) => {
-  a.addEventListener("click", function (e) {
-    e.preventDefault();
-    // console.log(a.id) ;
-    let numLigne = parseInt(a.id);
-    //  let numeroLigneTab = numLigne + 1;
-    // console.log(numeroLigneTab);
-    console.log(numLigne);
-    people.splice(numLigne, 1);
-     const test= document.querySelector("table");
-    test.remove(); 
-    generateTab();   
-  }); 
-
-});
+// const tabSuppr = document.querySelectorAll("a");
+// tabSuppr.forEach((a) => {
+//   a.addEventListener("click", function (e) {
+//     e.preventDefault();
+//     // console.log(a.id) ;
+//     let numLigne = parseInt(a.id);
+//     //  let numeroLigneTab = numLigne + 1;
+//     // console.log(numeroLigneTab);
+//     console.log(numLigne);
+//     people.splice(numLigne, 1);
+//     const test = document.querySelector("table");
+//     test.remove();
+//     generateTab();
+//   });
+// });
 
 const ajouter = document.querySelector("#btnAjouter");
-ajouter.addEventListener("click",function () {
-    let txtnom = document.getElementById("txtnom").value;
-    let txtprenom = document.getElementById("txtprenom").value;
-    let personne = txtprenom + " " + txtnom;
-    people.push(personne);
-    const tableau= document.querySelector("table");
-    tableau.remove();
-    generateTab(); 
-    document.getElementById("txtnom").value="";
-    document.getElementById("txtprenom").value="";
-    document.getElementById("txtprenom").focus();
-
-})
-
-
-
-
-
-
+ajouter.addEventListener("click", function () {
+  let txtnom = document.getElementById("txtnom").value;
+  let txtprenom = document.getElementById("txtprenom").value;
+  let personne = txtprenom + " " + txtnom;
+  people.push(personne);
+  const tableau = document.querySelector("table");
+  tableau.remove();
+  generateTab();
+  document.getElementById("txtnom").value = "";
+  document.getElementById("txtprenom").value = "";
+  document.getElementById("txtprenom").focus();
+});
