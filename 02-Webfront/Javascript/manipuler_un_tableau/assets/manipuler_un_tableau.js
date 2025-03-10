@@ -22,6 +22,7 @@ function addCell(txt, row) {
   return myCell;
 }
 
+
 function genererMail(prenom, nom) {
   return `${prenom.toLowerCase()}.${nom.toLowerCase()}@example.com`;
 }
