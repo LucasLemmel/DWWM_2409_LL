@@ -7,10 +7,30 @@
     <script src="./assets/manipuler_un_objet.js" async></script>
     <style>
 
-        td{
-            border: 2px solid #fff;
-            padding: 0px 30px 0px 30px;
-        }
+      body{
+        border: solid #7CB07C;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      h1,th,td{
+        color: #006400;
+      }
+
+      table, tr, th, td {
+        border: 1px solid #fff;
+        border-collapse: collapse;
+
+      }
+
+      th, td {
+        padding: 5px 10px;
+      }
+      input{
+        background-color: #90EE90;
+        border: 1px solid #fff;
+        border-collapse: collapse;
+        padding: 5px 10px;
+      }
 
     </style>
 
@@ -19,6 +39,26 @@
     <header>
       <h1>Profil de John Doe</h1>
       <table id="personne"></table>
+      <form action="">
+        <div>
+          <label for="prenom">Prénom:</label>
+          <input type="text" id="prenom">
+        </div>
+        <div>
+          <label for="nom">Nom:</label>
+          <input type="text" id="nom">
+        </div>
+        <div>
+          <label for="datenaissance">Date de naissance:</label>
+          <input type="text" id="datenaissance">
+        </div>
+        <div>
+          <label for="salaire">Salaire:</label>
+          <input type="text" id="salaire">
+        </div>
+        
+          <input type="button" value="Enregistrer">
+      </form>
     </header>
   </body>
 </html>
