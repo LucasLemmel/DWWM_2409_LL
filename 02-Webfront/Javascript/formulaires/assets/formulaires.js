@@ -7,7 +7,6 @@ const resultat = document.querySelector("#resultat")
 
 valider.addEventListener("click",function(){
     if(prenom.value != "" & age > 0){
-
-    }
         
-})
+    };    
+});
