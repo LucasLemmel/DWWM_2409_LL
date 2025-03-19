@@ -1,0 +1,12 @@
+body,input{
+    background-color: #E0FFFF;
+    color: #00048C;
+    font-family: Verdana, sans-serif;
+    
+}
+#carName,#btn-rechercher{
+    display: block;
+    margin: 15px 0px 15px 0px;
+    padding: 5px;
+}
+
