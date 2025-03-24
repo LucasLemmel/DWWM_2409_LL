@@ -25,15 +25,13 @@ btnRechercher.addEventListener("click",function(event){
        
         if (maVoiture.car_name.includes(nomVoiture.value)) {
             console.log(maVoiture);
-            infoVoiture.innerHTML = "Identifiant de la voiture : " + maVoiture.car_id +
-            "<br>Nom de la voiture : " + maVoiture.car_name + 
-            "<br>Model de la voiture : " + maVoiture.car_model + 
-            "<br>Nombre de cylindre de la voiture : " + maVoiture.car_cylinders + 
-            "<br>Nombre de chevaux de la voiture : " + maVoiture.car_horsepower + 
-            "<br>Poid de la voiture : " + maVoiture.car_weight + 
-            "<br>Origine de la voiture : " + maVoiture.car_origin;
+            infoVoiture.innerHTML = "Id : " + maVoiture.car_id +
+            "<br>Nom : " + maVoiture.car_name + 
+            "<br>Année : " + maVoiture.car_model + 
+            "<br>Origine : " + maVoiture.car_origin;
 
        } 
         
     }
-})console.log(btnRechercher)
+})
+
