@@ -15,12 +15,12 @@ var_dump(isMajor(42)) . "<br>"; // retourne « true »
 function getRetired(int $age): string
 {
 $retraite = 60;
-if ($age < $retraite) 
+if ($age < $retraite && $age > 0)
 {
     $anneRestante = $retraite - $age;
     return "il vous reste $anneRestante ans avant la retraite";
 }
-elseif($age = $retraite)
+elseif($age == $retraite)
 {
     return "Vous êtes à la retraite cette année";
 }
@@ -34,10 +34,10 @@ else
     return "Vous n’êtes pas encore né";
 }
 }
-echo getretired(12) . PHP_EOL;
-echo getretired(60) . PHP_EOL;
-echo getretired(72) . PHP_EOL;
-echo getretired(-2) . PHP_EOL;
+echo getretired(12) . "<br>";
+echo getretired(60) . "<br>";
+echo getretired(72) . "<br>";
+echo getretired(-2) . "<br>";
 
 #-----------------------------------------------------------------------------#
 
@@ -53,10 +53,10 @@ function getMax(float $a,float $b,float $c):float
     return round($max,3);
     
 }
-echo getMax(66.651,50.358,35.654) . PHP_EOL;
-echo getMax(35.589,58.258,25.682) . PHP_EOL;
-echo getMax(15.482,2.586,65.791) . PHP_EOL;
-echo getMax(58.280,58.280,68.280) . PHP_EOL;
+echo getMax(66.651,50.358,35.654) . "<br>";
+echo getMax(35.589,58.258,25.682) . "<br>";
+echo getMax(15.482,2.586,65.791) . "<br>";
+echo getMax(58.280,58.280,68.280) . "<br>";
 
 #----------------------------------------------------------------------------------#
 
@@ -85,11 +85,11 @@ function capitalCity(string $pays):string
     }
 }
 
-echo capitalCity('France') . PHP_EOL;
-echo capitalCity('allemagne') . PHP_EOL;
-echo capitalCity('italie') . PHP_EOL;
-echo capitalCity('maroc') . PHP_EOL;
-echo capitalCity('espagne') . PHP_EOL;
-echo capitalCity('portugal') . PHP_EOL;
-echo capitalCity('angleterre') . PHP_EOL;
+echo capitalCity('France') . "<br>";
+echo capitalCity('allemagne') . "<br>";
+echo capitalCity('italie') . "<br>";
+echo capitalCity('maroc') . "<br>";
+echo capitalCity('espagne') . "<br>";
+echo capitalCity('portugal') . "<br>";
+echo capitalCity('angleterre') . "<br>";
 echo capitalCity('europe');
