@@ -7,15 +7,20 @@
 </head>
 <body>
 <?php
-include "./models/Pret.php";
+include "./models/Pret..php";
 
 $objPret= new Pret(10000, 5.3,5);
 
 echo $objPret->calculMensualite2()."<br>";
 
-$tableauAmrt= $objPret->getTableauAmortissement();
-var_export($tableauAmrt);
+// $tableauAmrt= $objPret->getTableauAmortissement();
+// var_export($tableauAmrt);
 
+$chainetab= $objPret->getTableauAmortissementJSON();
+echo $chainetab;
+$objPret->getreportJSON();
+$objPret2= new Pret(150000, 2.4,15);
+$objPret2->getreportJSON();
 
 ?>
 </body>
