@@ -20,8 +20,7 @@ function addCell(txt, row) {
   );
   myCell.innerHTML = txt;
   return myCell;
-}
-
+};
 
 function genererMail(prenom, nom) {
   return `${prenom.toLowerCase()}.${nom.toLowerCase()}@example.com`;
@@ -66,11 +65,10 @@ function generateTab() {
       "style",
       "text-align:center;style;border: 1px solid #ACCBE1;padding: 10px;background-color: #637081"
     );
-    cellsuppr.addEventListener("click",function(){
+    cellsuppr.addEventListener("click", function () {
       myRow.remove();
       people.splice(index, 1);
-    })
-
+    });
   });
 }
 

@@ -1,0 +1,10 @@
+{
+    "name": "llemmel/jeux_concours",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "dao\\": "Dao/"
+        }
+    },
+    "require": {}
+}
